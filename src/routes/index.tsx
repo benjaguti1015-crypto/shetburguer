@@ -7,7 +7,6 @@ import { BrandHeader } from "@/components/brand-header";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { LOYALTY_CONFIG } from "@/lib/loyalty-config";
-import logo from "@/assets/shet-burger-logo.jpeg.asset.json";
 import { normalizeHandle } from "@/lib/handle";
 
 export const Route = createFileRoute("/")({
@@ -90,7 +89,7 @@ function Index() {
       <main className="mx-auto max-w-md space-y-6 px-4 pt-8 pb-16">
         <div className="text-center">
           <img
-            src={logo.url}
+            src="/shet.jpg"
             alt="Logo de SHET BURGER"
             className="mx-auto h-36 w-36 rounded-[2rem] object-cover shadow-[var(--shadow-pop)]"
           />
