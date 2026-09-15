@@ -7,7 +7,7 @@ import { BrandHeader } from "@/components/brand-header";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { LOYALTY_CONFIG } from "@/lib/loyalty-config";
-import logo from "@/assets/shet-burger-logo.jpeg.asset.json";
+import logo from "@/assets/shet.jpg";
 import { normalizeHandle } from "@/lib/handle";
 
 export const Route = createFileRoute("/")({
