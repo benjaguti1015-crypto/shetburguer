@@ -1,5 +1,4 @@
 import { Link } from "@tanstack/react-router";
-import logo from "@/assets/shet-burger-logo.jpeg.asset.json";
 
 export function BrandHeader({ subtitle }: { subtitle?: string }) {
   return (
@@ -7,7 +6,7 @@ export function BrandHeader({ subtitle }: { subtitle?: string }) {
       <div className="mx-auto flex max-w-md items-center gap-3 px-4 py-3">
         <Link to="/" className="shrink-0">
           <img
-            src={logo.url}
+            src="/shet.jpg"
             alt="Logo de SHET BURGER"
             className="h-11 w-11 rounded-2xl object-cover shadow-[var(--shadow-pop)]"
           />
